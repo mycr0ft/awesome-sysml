@@ -137,19 +137,19 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 
 ## Containerized / Docker Images
 
-| Image | Description |
-|-------|-------------|
-| `mbsemashup/sysmlv2-api.pilotimpl` | Containerized SysML v2 API Services pilot implementation. |
-| `gorenje/sysmlv2-jupyter` | Jupyter + SysML v2 kernel + API server Docker setup. |
-| `jaydeanmartin/sysmlv2` | Docker Compose for Jupyter + API server + PostgreSQL. |
-| `kenji-miyake/sysml-v2-docker/eclipse` | Eclipse with SysML v2 Pilot (Xtext editor) — containerized desktop. |
-| `josh-kaplan/sysml-v2-docker` | Docker Compose for SysML 2.0 lab (Jupyter). |
-| **Open-MBEE sysmlv2-web-modeler** | Dockerfile + Dockerfile.openmbee — Java service with Pilot JARs, Graphviz, Python bundled. |
-| **DeciSym sysmlv2-gui** | Dockerfile — WASM frontend + Java validator bundled. |
-| **Refinery Validation Showcase** | docker-compose.yml — Web UI + Jupyter + API + PostgreSQL. |
-| **SysML2.NET** | Docker Hub image — reference web-application at viewer.sysml2.net. |
-| **mycr0ft/sysmlv2-jupyter-container** | Docker container for SysML v2 Jupyter + API + PostgreSQL. |
-| **mycr0ft/SysON_podman_compose** | Podman Compose setup for Eclipse SysON. |
+| Image | Description | Links |
+|-------|-------------|-------|
+| `mbsemashup/sysmlv2-api.pilotimpl` | Containerized SysML v2 API Services pilot implementation. | [Docker Hub](https://hub.docker.com/r/mbsemashup/sysmlv2-api.pilotimpl) |
+| `gorenje/sysmlv2-jupyter` | Jupyter + SysML v2 kernel + API server Docker setup. | [Docker Hub](https://hub.docker.com/r/gorenje/sysmlv2-jupyter) — [GitHub](https://github.com/gorenje/sysmlv2-jupyter) |
+| `jaydeanmartin/sysmlv2` | Docker Compose for Jupyter + API server + PostgreSQL. | [GitHub](https://github.com/jaydeanmartin/sysmlv2) |
+| `kenji-miyake/sysml-v2-docker/eclipse` | Eclipse with SysML v2 Pilot (Xtext editor) — containerized desktop. | [GitHub](https://github.com/kenji-miyake/sysml-v2-docker) |
+| `josh-kaplan/sysml-v2-docker` | Docker Compose for SysML 2.0 lab (Jupyter). | [GitHub](https://github.com/josh-kaplan/sysml-v2-docker) |
+| **Open-MBEE sysmlv2-web-modeler** | Dockerfile + Dockerfile.openmbee — Java service with Pilot JARs, Graphviz, Python bundled. | [GitHub](https://github.com/Open-MBEE/sysmlv2-web-modeler) |
+| **DeciSym sysmlv2-gui** | Dockerfile — WASM frontend + Java validator bundled. | [GitHub](https://github.com/DeciSym/sysmlv2-gui) |
+| **Refinery Validation Showcase** | docker-compose.yml — Web UI + Jupyter + API + PostgreSQL. | [Zenodo](https://zenodo.org/records/19297800) |
+| **SysML2.NET** | Docker Hub image — reference web-application. | [Docker Hub](https://hub.docker.com/r/stariongroup/sysml2.net) — [Viewer](http://viewer.sysml2.net) |
+| **mycr0ft/sysmlv2-jupyter-container** | Docker container for SysML v2 Jupyter + API + PostgreSQL. | [GitHub](https://github.com/mycr0ft/sysmlv2-jupyter-container) |
+| **mycr0ft/SysON_podman_compose** | Podman Compose setup for Eclipse SysON. | [GitHub](https://github.com/mycr0ft/SysON_podman_compose) |
 
 ## Tools by mycr0ft
 
