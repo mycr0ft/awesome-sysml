@@ -105,16 +105,28 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 | **pygments-sysml** | SysML lexer for syntax highlighting with Pygments. Python. | [github.com/mycr0ft/pygments-sysml](https://github.com/mycr0ft/pygments-sysml) |
 | **sysml-vim** | Vim syntax highlighting for SysML v2 textual notation. Vim Script. | [github.com/mycr0ft/sysml-vim](https://github.com/mycr0ft/sysml-vim) |
 
-## Samples & Examples
+## Samples, Examples & Training
 
 | Resource | Description | Links |
 |----------|-------------|-------|
-| **SysML v2 Release examples** | Official OMG example models (KerML and SysML v2). | [github.com/Systems-Modeling/SysML-v2-Release](https://github.com/Systems-Modeling/SysML-v2-Release) (`kerml/`, `sysml/`) |
-| **sysml-v2-lsp examples** | 20+ example `.sysml` files including bike, smart-home, DFA coverage, multiplicity. | [github.com/daltskin/sysml-v2-lsp/tree/main/examples](https://github.com/daltskin/sysml-v2-lsp/tree/main/examples) |
-| **sysml2 CLI examples** | Example models for the Swiss-army-knife CLI. | [github.com/zbigniewsobiecki/sysml2](https://github.com/zbigniewsobiecki/sysml2) |
-| **SysML v2 Pilot examples** | Example projects shipped with the Pilot Implementation. | [Systems-Modeling/SysML-v2-Pilot-Implementation](https://github.com/Systems-Modeling/SysML-v2-Pilot-Implementation) |
-| **SysML v2 Standard Library** | Normative model libraries (Kernel, Domain, Systems libraries). | [github.com/Systems-Modeling/SysML-v2-Release](https://github.com/Systems-Modeling/SysML-v2-Release) (`sysml.library/`) |
-| **Visual Paradigm examples** | 500+ professional example files (satellite, automotive, camera, turbojet). | [sysml.visual-paradigm.com](https://sysml.visual-paradigm.com/) |
+| **SysML v2 Release examples** | Official OMG example models (KerML and SysML v2) — the canonical starting point. | [GitHub](https://github.com/Systems-Modeling/SysML-v2-Release) (`kerml/`, `sysml/`) |
+| **SysML v2 Standard Library** | Normative model libraries (Kernel, Domain, Systems libraries). | [GitHub](https://github.com/Systems-Modeling/SysML-v2-Release) (`sysml.library/`) |
+| **SysML v2 Intro Presentations** | Official OMG intro PDFs for both textual and graphical notation. | [GitHub](https://github.com/Systems-Modeling/SysML-v2-Release) (`doc/`) |
+| **Flashlight Starter Model** | OMG starter model by Sanford Friedenthal — simple flashlight in Jupyter + PlantUML. | [OMG Wiki](https://www.omgwiki.org/MBSE/doku.php?id=mbse:sysml_v2_transition:sysml_v2_starter_model) |
+| **SysON Flashlight Tutorial** | Obeo's beginner-friendly step-by-step SysML v2 tutorial (Flashlight model). | [Obeo Docs](https://docs.obeosoft.com/syson/v2025.6.0/user-manual/hands-on/tutorials/flashlight.html) |
+| **SysML v2 Learning Club** | OOSE's 107-lesson microlearning course — bite-sized units with exercises and quizzes. | [OOSE Club](https://clubs.oose.com/courses/sysmlv2/) |
+| **Advent of SysML v2** | Sensmetry's 24-lesson video course with YouTube playlist, blog posts, and example models. | [GitHub](https://github.com/sensmetry/advent-of-sysml-v2) — [YouTube](https://www.youtube.com/playlist?list=PLuceG5piNwHG7KBdo02RDPAkJ-ErbzHe0) |
+| **SysML Cheatsheet** | Sensmetry's quick-reference cheat sheet for SysML v2 syntax. | [Sensmetry](https://sensmetry.com/sysml-cheatsheet/) |
+| **SysML Syntax Explorer** | Interactive browser-based concrete syntax tree (CST) visualizer. | [CST Explorer](https://cst.syside.app/) — [Docs](https://docs.sensmetry.com/automator/tree-sitter-playground.html) |
+| **Visual Paradigm 8-View Guide** | 9-part tutorial series building a Smart Home Climate System end-to-end. | [VP Guide](https://sysml.visual-paradigm.com/docs/sysml-v2-studio-kick-start-guide/cohesive-system-model-in-8-views/overview/) |
+| **Visual Paradigm Tutorials** | Getting started, parts & ports, industry examples (EV Charging Station, Turbojet, Camera). | [VP Tutorials](https://sysml.visual-paradigm.com/docs/tutorials/part-1-the-basics-your-first-model/creating-your-first-sysml-v2-project/) |
+| **Visual Paradigm Examples** | 500+ professional example files (satellite, automotive, camera, turbojet) with AI explanations. | [VP Examples](https://sysml.visual-paradigm.com/) |
+| **sysml-v2-lsp examples** | 20+ example `.sysml` files including bike, smart-home, DFA coverage, multiplicity. | [GitHub](https://github.com/daltskin/sysml-v2-lsp/tree/main/examples) |
+| **SysML v2 Pilot examples** | Example projects shipped with the Pilot Implementation. | [GitHub](https://github.com/Systems-Modeling/SysML-v2-Pilot-Implementation) |
+| **sysml2 CLI examples** | Example models for the Swiss-army-knife CLI. | [GitHub](https://github.com/zbigniewsobiecki/sysml2) |
+| **Armstrong Process Group Tutorial** | Half-day SysML v2 overview — language architecture, structure, behavior, requirements. | [APGroup](https://aprocessgroup.com/sysml-v2-tutorial/) |
+| **Caltech CTME Training** | 3-day professional transition training from SysML v1 to v2 with Cameo. | [Caltech CTME](https://ctme.caltech.edu/transitioning-models-to-sysml-v2-with-mbse.html) |
+| **Webel IT Australia Workshop** | 5-day full SysML v2 workshop with Cameo/CATIA Magic, Balls & Boxes sample problem. | [Webel](https://webel.com.au/node/4399) |
 
 ## Commercial Tools
 
