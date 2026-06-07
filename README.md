@@ -1,6 +1,6 @@
 # Awesome SysML v2
 
-opencode -s ses_15d059332ffeQggwUlLWfYhKO6
+A curated list of SysML v2 language tools, implementations, samples, syntax highlighters, editors, commercial tools, and containerized versions.
 
 ## Contents
 
