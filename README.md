@@ -157,13 +157,13 @@ Jon Fox ([github.com/mycr0ft](https://github.com/mycr0ft)) maintains these SysML
 
 | Repo | Description |
 |------|-------------|
-| **sysmlpy** | Pure Python SysML v2 parser — ANTLR4 grammar, Pint units, NetworkX/Kuzu graph backends, 123/123 conformance. PyPI: `pip install sysmlpy`. |
-| **sysmlcad** | Embedding 3D CAD in SysML v2 for parametric models of physical objects. Python. |
-| **sysml-style** | SysML style checker and formatter based on sysmlpy. Enforces consistent code style on `.sysml` files. |
-| **pygments-sysml** | SysML lexer for syntax highlighting with Pygments. |
-| **sysml-vim** | Vim syntax highlighting for SysML v2 textual notation. |
-| **sysmlv2-jupyter-container** | Docker container for SysML v2 Jupyter + API server + PostgreSQL — Docker Compose based. |
-| **SysON_podman_compose** | Podman Compose setup for Eclipse SysON web-based graphical modeler. |
+| [**sysmlpy**](https://github.com/mycr0ft/sysmlpy) | Pure Python SysML v2 parser — ANTLR4 grammar, Pint units, NetworkX/Kuzu graph backends, 123/123 conformance. PyPI: `pip install sysmlpy`. |
+| [**sysmlcad**](https://github.com/mycr0ft/sysmlcad) | Embedding 3D CAD in SysML v2 for parametric models of physical objects. Python. |
+| [**sysml-style**](https://github.com/mycr0ft/sysml-style) | SysML style checker and formatter based on sysmlpy. Enforces consistent code style on `.sysml` files. |
+| [**pygments-sysml**](https://github.com/mycr0ft/pygments-sysml) | SysML lexer for syntax highlighting with Pygments. |
+| [**sysml-vim**](https://github.com/mycr0ft/sysml-vim) | Vim syntax highlighting for SysML v2 textual notation. |
+| [**sysmlv2-jupyter-container**](https://github.com/mycr0ft/sysmlv2-jupyter-container) | Docker container for SysML v2 Jupyter + API server + PostgreSQL — Docker Compose based. |
+| [**SysON_podman_compose**](https://github.com/mycr0ft/SysON_podman_compose) | Podman Compose setup for Eclipse SysON web-based graphical modeler. |
 
 Contributions also in: **Windseeker** ([Westfall-io/windseeker](https://github.com/Westfall-io/windseeker)) — CLI for dependency analysis and view extraction.
 
