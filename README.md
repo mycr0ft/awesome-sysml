@@ -4,6 +4,7 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 
 ## Contents
 
+- [Documentation & Standards](#documentation--standards)
 - [Reference & Pilot Implementations](#reference--pilot-implementations)
 - [Language Servers & VS Code Extensions](#language-servers--vs-code-extensions)
 - [Formatters, Linters & Style Checkers](#formatters-linters--style-checkers)
@@ -19,6 +20,12 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 - [Tools by mycr0ft](#tools-by-mycr0ft)
 
 ---
+
+## Documentation & Standards
+
+| Resource | Description | Links |
+|----------|-------------|-------|
+| **sysml-v2-docs** | Pure markdown knowledge base extracted from OMG SysML v2.0 / KerML 1.0 / API & Services 1.0 specs. Covers the full language (overview, grammar, keywords, definition vs usage, structural/behavioral/requirements modeling, analysis, packages, standard libraries, graphical notation), AI agent guidance, validation checklists, and example `.sysml` files (flashlight, vehicle skeleton). Designed for both developers and AI coding agents. | [github.com/voidaliot/sysml-v2-docs](https://github.com/voidaliot/sysml-v2-docs) |
 
 ## Reference & Pilot Implementations
 
@@ -110,6 +117,9 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 | Resource | Description | Links |
 |----------|-------------|-------|
 | **SysML v2 Release examples** | Official OMG example models (KerML and SysML v2) — the canonical starting point. | [GitHub](https://github.com/Systems-Modeling/SysML-v2-Release) (`kerml/`, `sysml/`) |
+| **GfSE SysML v2 Models** | GfSE-curated collection of high-quality SysML v2 models — validated in CI via the Pilot Implementation parser. Covers SE models, EveOnline mining frigate, family model, SOS, and more. BSD-3-Clause. | [GitHub](https://github.com/GfSE/SysML-v2-Models) |
+| **Airbus Apollo 11 SysML v2** | Comprehensive SysML v2 model of the Apollo 11 mission by Airbus Central R&T. Uses the 5-layer CoSMA framework (Purpose/Operational/Functional/Logical/Technical) with full requirements traceability, analysis calculations, state machines, and mission execution modeling. Research artifact with accompanying INCOSE paper. | [GitHub](https://github.com/airbus/apollo-11-sysml-v2) |
+| **Don't Panic Batmobile** | Batmobile SysML v2 example from the book "Don't Panic - The Absolute Beginners Guide to SysML v2" by Tim Weilkiens and Christian Muggeo. Includes `.sysml` textual notation and Jupyter notebook. Apache-2.0. | [GitHub](https://github.com/MBSE4U/dont-panic-batmobile) |
 | **SysML v2 Standard Library** | Normative model libraries (Kernel, Domain, Systems libraries). | [GitHub](https://github.com/Systems-Modeling/SysML-v2-Release) (`sysml.library/`) |
 | **SysML v2 Intro Presentations** | Official OMG intro PDFs for both textual and graphical notation. | [GitHub](https://github.com/Systems-Modeling/SysML-v2-Release) (`doc/`) |
 | **Flashlight Starter Model** | OMG starter model by Sanford Friedenthal — simple flashlight in Jupyter + PlantUML. | [OMG Wiki](https://www.omgwiki.org/MBSE/doku.php?id=mbse:sysml_v2_transition:sysml_v2_starter_model) |
