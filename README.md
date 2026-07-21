@@ -31,8 +31,8 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 
 | Tool | Description | Links |
 |------|-------------|-------|
-| **SysML v2 Pilot Implementation** | OMG's reference implementation — Java/Xtext-based parser, validator, textual editor, and PlantUML visualization. LGPL-3.0. | [github.com/Systems-Modeling/SysML-v2-Pilot-Implementation](https://github.com/Systems-Modeling/SysML-v2-Pilot-Implementation) |
-| **SysML v2 API Services** | Reference REST API server (Spring Boot) implementing the OMG SysML v2 API & Services specification. | [github.com/Systems-Modeling/SysML-v2-API-Services](https://github.com/Systems-Modeling/SysML-v2-API-Services) |
+| **SysML v2 Pilot Implementation** | OMG's reference implementation — Java/Xtext-based parser, validator, textual editor, and PlantUML visualization. **Memory-heavy JVM runtime — 16 GB host RAM recommended.** LGPL-3.0. | [github.com/Systems-Modeling/SysML-v2-Pilot-Implementation](https://github.com/Systems-Modeling/SysML-v2-Pilot-Implementation) |
+| **SysML v2 API Services** | Reference REST API server (Spring Boot) implementing the OMG SysML v2 API & Services specification. **Spring Boot JVM — 16 GB host RAM recommended.** | [github.com/Systems-Modeling/SysML-v2-API-Services](https://github.com/Systems-Modeling/SysML-v2-API-Services) |
 | **SysML v2 Release** | Official OMG release repo — spec documents, example models, model library, and installer instructions. | [github.com/Systems-Modeling/SysML-v2-Release](https://github.com/Systems-Modeling/SysML-v2-Release) |
 
 ## Language Servers & VS Code Extensions
@@ -65,6 +65,7 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 |------|--------|-------------|-----------------|
 | **sysmlpy** | mycr0ft | Pure Python ANTLR4-based parser — Pint units, NetworkX/Kuzu graph backends, in-memory/graph storage abstraction, 123/123 conformance. | `pip install sysmlpy` — [github.com/mycr0ft/sysmlpy](https://github.com/mycr0ft/sysmlpy) |
 | **Windseeker** | Westfall-io | CLI for dependency analysis, Jupyter notebook generation/execution, SVG/PNG view extraction from `.sysml` files. | `pip install sysml-windseeker` — [github.com/Westfall-io/windseeker](https://github.com/Westfall-io/windseeker) |
+| **SysML v2 Visualizer** | redasasin4 | Python CLI driving the official `jupyter-sysml-kernel` to render authentic SVG diagrams (Tree, Interconnection, Action, State, Sequence, Case, MIXED) from `.sysml` files. Auto-discovers kernel; ships Python API, `--diagnose`, and GitHub Actions integration. UV-managed. **Drives the in-process SysML kernel JVM — same ≥ 16 GB host RAM guidance applies.** | [github.com/redasasin4/SysML_Python_Visualizer](https://github.com/redasasin4/SysML_Python_Visualizer) |
 | **sysmlcad** | mycr0ft | Embedding 3D CAD in SysML v2 for parametric models of physical objects. Python. | [github.com/mycr0ft/sysmlcad](https://github.com/mycr0ft/sysmlcad) |
 | **sysml2py** | Westfall-io | Original textX-based Python parser (predecessor to sysmlpy). | `pip install sysml2py` — [github.com/Westfall-io/sysml2py](https://github.com/Westfall-io/sysml2py) |
 | **Open-MBEE Python Client** | Open-MBEE | Client library for SysML v2 REST API (Flexo) — CRUD on projects, commits, branches, elements, tags. | [github.com/Open-MBEE/sysmlv2-python-client](https://github.com/Open-MBEE/sysmlv2-python-client) |
@@ -158,6 +159,8 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 | **Syside Automator** | Sensmetry | Python library for analysis, optimization, and workflow automation. |
 
 ## Containerized / Docker Images
+
+> **⚠️ Memory note:** Images based on the SysML v2 Pilot / API Services (`gorenje/sysmlv2-jupyter`, `josh-kaplan/sysml-v2-docker`, `jaydeanmartin/sysmlv2`, `mbsemashup/sysmlv2-api.pilotimpl`, `mycr0ft/sysmlv2-jupyter-container`, `kenji-miyake/sysml-v2-docker/eclipse`, `Open-MBEE sysmlv2-web-modeler`, `DeciSym sysmlv2-gui`, `Refinery Validation Showcase`) bundle a JVM and often a Spring Boot server alongside JupyterLab/Eclipse. Combined overhead routinely exceeds 8 GB — run them on hosts with ≥ 16 GB RAM (preferably more when also running PostgreSQL). Containerizing is a good way to keep host deps clean, but plan host memory accordingly.
 
 | Image | Description | Links |
 |-------|-------------|-------|
