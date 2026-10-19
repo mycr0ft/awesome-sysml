@@ -44,9 +44,9 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 
 - [sysml-v2-lsp](https://github.com/daltskin/sysml-v2-lsp) - Full LSP in TypeScript/ANTLR4 — diagnostics, completions, goto-def, references, rename, code actions, semantic tokens, folding, Mermaid preview (6 diagram types), MCP server. Clients: VS Code, Web SPA, Python/Jupyter. MIT. `npm install sysml-v2-lsp`.
 - [VSCode SysML Extension](https://github.com/daltskin/VSCode_SysML_Extension) - Rich VS Code extension — 10 diagram views (General, IBD, Activity, State, Sequence, Package, etc.), Model Explorer, Feature Explorer, Feature Inspector, 29 snippets, model dashboard, inlay hints, PNG/SVG export.
-- [SysIDE Editor Legacy](https://github.com/sensmetry/sysml-2ls) - Free LSP-based VS Code extension — semantic highlighting, autocompletion, validation, formatting, navigation, folding, rename, hover docs. Also: **Sysand** (open-source package manager), **Syside Modeler** (premium), **Syside Automator** (Python). [Site](https://syside.sensmetry.com).
 - [sysmlv2-language-server](https://github.com/vpathai-git/sysmlv2-language-server) - Langium-based LSP with 210+ validation rules, TextMate grammar, EMF compatibility shim.
 - [spec42](https://github.com/elan8/spec42) - SysML v2 language server and VS Code extension. MIT.
+- [sysand](https://github.com/sensmetry/sysand) - Package manager for SysML v2 and KerML projects — dependency resolution and project packaging.
 
 ## Formatters, Linters & Style Checkers
 
@@ -104,14 +104,12 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 ## Project Templates & Scaffolding
 
 - [sysml-copier](https://github.com/mycr0ft/sysml-copier) - Copier template for SysML v2 projects — layout, CI, and tooling defaults.
-- [sysmlv2-python-cookiecutter](https://github.com/smp4/sysmlv2-python-cookiecutter) - Cookiecutter template — Hatch + VS Code + SysIDE + Jupyter kernel project scaffolding.
 
 ## Validation & Analysis
 
 - [Refinery Validation Pipeline](https://zenodo.org/records/19297800) - Pattern-based validation — connects to the SysML v2 API, transforms the model into a Refinery graph solver, and runs user-defined patterns. Docker Compose showcase. (Also listed under Python Tools for its client.)
 - [SYSMOD MCP Server](https://github.com/Open-MBEE/sysmod-sysmlv2-api/blob/main/sysmod_mcp_server.py) - 17 MCP tools for querying SYSMOD artifacts — quality checks, atlas, feature trees, AI suggestions.
 - [cameo-mcp-bridge](https://github.com/ajhcs/cameo-mcp-bridge) - MCP server bridging AI assistants to CATIA Magic/Cameo — 37 tools for query, create, modify, diagram operations on SysML/UML models.
-- [SysML v2 API MCP Server](https://github.com/redsteve/SysML-v2-API-MCP-Server) - C++ MCP server exposing SysML v2 API repositories to AI agents. MIT.
 
 ## Syntax Highlighting & Grammar Files
 
@@ -166,13 +164,11 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 
 ## Containerized / Docker Images
 
-> **⚠️ Memory note:** Images based on the SysML v2 Pilot / API Services (`gorenje/sysmlv2-jupyter`, `josh-kaplan/sysml-v2-docker`, `jaydeanmartin/sysmlv2`, `mbsemashup/sysmlv2-api.pilotimpl`, `mycr0ft/sysmlv2-jupyter-container`, `kenji-miyuke/sysml-v2-docker/eclipse`, `Open-MBEE sysmlv2-web-modeler`, `Refinery Validation Showcase`) bundle a JVM and often a Spring Boot server alongside JupyterLab/Eclipse. Combined overhead routinely exceeds 8 GB — run them on hosts with ≥ 16 GB RAM (preferably more when also running PostgreSQL). Containerizing is a good way to keep host deps clean, but plan host memory accordingly.
+> **⚠️ Memory note:** Images based on the SysML v2 Pilot / API Services (`gorenje/sysmlv2-jupyter`, `josh-kaplan/sysml-v2-docker`, `jaydeanmartin/sysmlv2`, `mbsemashup/sysmlv2-api.pilotimpl`, `mycr0ft/sysmlv2-jupyter-container`, `Open-MBEE sysmlv2-web-modeler`, `Refinery Validation Showcase`) bundle a JVM and often a Spring Boot server alongside JupyterLab/Eclipse. Combined overhead routinely exceeds 8 GB — run them on hosts with ≥ 16 GB RAM (preferably more when also running PostgreSQL). Containerizing is a good way to keep host deps clean, but plan host memory accordingly.
 
 - [mbsemashup/sysmlv2-api.pilotimpl](https://hub.docker.com/r/mbsemashup/sysmlv2-api.pilotimpl) - Containerized SysML v2 API Services pilot implementation.
 - [gorenje/sysmlv2-jupyter](https://hub.docker.com/r/gorenje/sysmlv2-jupyter) - Jupyter + SysML v2 kernel + API server Docker setup (image only; source repo no longer published).
 - [jaydeanmartin/sysmlv2](https://github.com/jaydeanmartin/sysmlv2) - Docker Compose for Jupyter + API server + PostgreSQL.
-- [kenji-miyuke/sysml-v2-docker/eclipse](https://github.com/kenji-miyake/sysml-v2-docker) - Eclipse with SysML v2 Pilot (Xtext editor) — containerized desktop.
-- [josh-kaplan/sysml-v2-docker](https://github.com/josh-kaplan/sysml-v2-docker) - Docker Compose for SysML 2.0 lab (Jupyter).
 - [Open-MBEE sysmlv2-web-modeler](https://github.com/Open-MBEE/sysmlv2-web-modeler/blob/main/Dockerfile) - Dockerfile + Dockerfile.openmbee — Java service with Pilot JARs, Graphviz, Python bundled.
 - [Refinery Validation Showcase](https://zenodo.org/records/19297800#files) - Docker Compose configuration — Web UI + Jupyter + API + PostgreSQL (in the record files).
 - [SysML2.NET](https://hub.docker.com/r/stariongroup/sysml2.net.viewer) - Docker Hub image — reference web-application viewer. ([Viewer](https://viewer.sysml2.net)).

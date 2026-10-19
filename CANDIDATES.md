@@ -11,6 +11,11 @@ entries that were removed and why. Nothing here is published as part of the list
 | DeciSym `sysmlv2-gui` Dockerfile | container entry | The repository has no Dockerfile (Rust/Trunk project); the project remains listed under Graphical Editors & Viewers. |
 | `zbigniewsobiecki/sysml2` examples | samples entry | The repository has no `examples/` directory; the CLI itself remains listed. |
 | Refinery duplicate | Python Tools + Validation | The same Zenodo record was linked twice; `remark-lint:double-link` rejects that. Kept in Validation & Analysis, and the container entry links the `#files` view. |
+| `kenji-miyake/sysml-v2-docker` | container entry | Repository archived (last push 2022-08); Eclipse + Pilot container is superseded. |
+| `josh-kaplan/sysml-v2-docker` | container entry | No push since 2024-01; the compose stack predates the current Pilot and API Services. |
+| `sensmetry/sysml-2ls` (SysIDE Editor Legacy) | language servers | Repository archived (2025-10) when Sensmetry moved to the closed SysIDE Modeler; the commercial entries remain listed. The `sysand` package manager it mentioned is now listed separately. |
+| `smp4/sysmlv2-python-cookiecutter` | templates | Repository archived (2024-10); `sysml-copier` supersedes it. |
+| `redsteve/SysML-v2-API-MCP-Server` | validation & analysis | No push since 2025-09 and no releases; kept out of the list until it shows maintenance. |
 
 ## Candidates to review
 
