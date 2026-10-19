@@ -76,9 +76,12 @@ for how to update a pull request.
 | File | Purpose |
 |------|---------|
 | `README.md` | The published Awesome list. **Only** items that have been personally reviewed. |
-| `CANDIDATES.md` | Working scratchpad of unvetted GitHub search results. Promote from here to `README.md` only after review. |
-| `AGENTS.md` | Internal guidance for AI agents and contributors — not part of the published list. |
+| `contributing.md` | These guidelines. |
+| `CANDIDATES.md` | Working scratchpad of unvetted items and a record of removed/deprecated entries. Promote from here to `README.md` only after review. |
 | `LICENSE` | CC0-1.0. Do not add a "License" section to the readme; GitHub renders it from this file. |
+
+Run `npx awesome-lint` before opening a PR — it enforces the ToC, the entry
+format, and no duplicate links.
 
 ## Unmaintained / deprecated / archived items
 
