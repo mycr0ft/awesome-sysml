@@ -98,7 +98,7 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 
 ## Product Data & Digital Thread
 
-- [stepper](https://github.com/mycr0ft/stepper) - Pure-Python STEP (ISO 10303) reader — Part 21 parser, EXPRESS schema graph, AP242 parse/schema gate with CI exit codes, product structure as OSLC JSON-LD/Turtle, ISO/TS 10303-400 UUID bridge, and content-addressed configuration baselines. Validated against the 28-file NIST AP242 PMI corpus. MPL-2.0.
+- [step242](https://github.com/mycr0ft/step242) - Pure-Python STEP (ISO 10303) reader — Part 21 parser, EXPRESS schema graph, AP242 parse/schema gate with CI exit codes, product structure as OSLC JSON-LD/Turtle, ISO/TS 10303-400 UUID bridge, and content-addressed configuration baselines. Validated against the 28-file NIST AP242 PMI corpus. MPL-2.0.
 - [pyoslc](https://github.com/mycr0ft/pyoslc) - OSLC Core 3.0 server SDK in Python (BSD-3-Clause, extends CONTACT Software's SDK) with a SysML v2 domain, a STEP product domain, bidirectional SysML↔STEP "Vee" links keyed on qualified name + stable id, and configuration baselines that pin model and geometry together.
 
 ## Project Templates & Scaffolding
@@ -181,7 +181,7 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 
 ## Maintainer's Projects
 
-This list is maintained by Jon Fox ([github.com/mycr0ft](https://github.com/mycr0ft)). Projects of his indexed above: **sysmlpy**, **sysmlpy-api-services**, **gosysml**, **uml2py**, **stepper**, **pyoslc**, **sysml-style**, **diagramboxes**, **sysml_canvas**, **sysmlcad**, **sysml-obfuscate**, **sysml-copier**, **pygments-sysml**, **sysml-vim**, **ams-gra-sysml**, **sysmlv2-jupyter-container**, and **SysON_podman_compose**.
+This list is maintained by Jon Fox ([github.com/mycr0ft](https://github.com/mycr0ft)). Projects of his indexed above: **sysmlpy**, **sysmlpy-api-services**, **gosysml**, **umlmeta**, **step242**, **pyoslc**, **sysml-style**, **diagramboxes**, **sysml_canvas**, **sysmlcad**, **sysml-obfuscate**, **sysml-copier**, **pygments-sysml**, **sysml-vim**, **ams-gra-sysml**, **sysmlv2-jupyter-container**, and **SysON_podman_compose**.
 
 ---
 
