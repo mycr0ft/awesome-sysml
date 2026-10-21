@@ -94,7 +94,7 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 
 ## SysML v1 to v2 Migration
 
-- [uml2py](https://github.com/mycr0ft/uml2py) - Clean-room UML 2.5.1 metamodel generated from the OMG XMI (242 metaclasses, 449 OCL constraints), with SysML v1, StandardProfile, and UAF 1.2/1.3 profiles. Reads XMI 2.1 and MagicDraw/Cameo `.mdzip` projects without vendor tooling, and emits SysML v2 anchored to the OMG v1→v2 transformation — refusing constructs that have no normative mapping rather than guessing. MPL-2.0.
+- [umlmeta](https://github.com/mycr0ft/umlmeta) - Clean-room UML 2.5.1 metamodel generated from the OMG XMI (242 metaclasses, 449 OCL constraints), with SysML v1, StandardProfile, and UAF 1.2/1.3 profiles. Reads XMI 2.1 and MagicDraw/Cameo `.mdzip` projects without vendor tooling, and emits SysML v2 anchored to the OMG v1→v2 transformation — refusing constructs that have no normative mapping rather than guessing. MPL-2.0.
 
 ## Product Data & Digital Thread
 
