@@ -26,3 +26,4 @@ entries that were removed and why. Nothing here is published as part of the list
 | [FlyingCpp/sysmlv2-learning-all-in-one](https://github.com/FlyingCpp/sysmlv2-learning-all-in-one) | Chinese-language learning platform (courses, online modelling, validation). Decide whether non-English resources belong in Samples. |
 | `nomograph-sysml`, `kebnf` (crates.io) | Small/new crates; revisit when they have documentation. |
 | `MJP-Sys/sysml-v2-modeling-skill` | Agent skill rather than a SysML tool; out of scope unless a skills section is added. |
+| [Apricot](https://apricot.metadev.pro/) | Web-based SysML v2 diagraming, editing, analysis, verification and document generation suite. |
