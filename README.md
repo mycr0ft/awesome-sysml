@@ -161,6 +161,8 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 - [Mgnite](https://www.mgnite.com/) - JupyterLab + Python environment integrating SysML v2 with Excel, PowerPoint, MATLAB/Simulink, DOORS Next.
 - [Syside Modeler](https://sensmetry.com/syside/) - Sensmetry. Premium SysML v2 modeling environment.
 - [Syside Automator](https://docs.sensmetry.com/automator/) - Sensmetry. Python library for analysis, optimization, and workflow automation.
+- [MBEstudio](https://vectorstreamsystems.com) - Vector Stream Systems. Browser-based SysML v2 textual modeling where an AI agent drafts the model and a compiler checks it; requirement evaluation, state machine simulation, trade studies and an MCP server for AI agents.
+- [Apricot](https://apricot.tools/) - MetaDev. Web-based SysML v2 diagramming, editing, analysis, verification and document generation suite.
 
 ## Containerized / Docker Images
 
