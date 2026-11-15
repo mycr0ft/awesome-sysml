@@ -91,6 +91,7 @@ A curated list of SysML v2 language tools, implementations, samples, syntax high
 - [sysml_canvas](https://github.com/mycr0ft/sysml_canvas) - Desktop diagram editor for SysML v2 built on gaphas and sysmlpy — an interactive canvas over the sysmlpy model, still early. Apache-2.0.
 - [diagramboxes](https://github.com/mycr0ft/diagramboxes) - UML/SysML block diagrams as Unicode braille in a terminal or as SVG — layered layout (Brandes/Kozen/ELK) with no Java dependency; the renderer behind sysmlpy's boxes views. MPL-2.0.
 - [Tom Sawyer SysML v2 Viewer](https://www.omg.org/sysml/sysmlv2/sysml-tool) - Model visualization — auto-layout, interactive navigation, integrates with any SysML v2 API repo.
+- [ortho](https://github.com/ola-coding/ortho) - Draws six architectural views of a SysML v2 textual model (use case, logical, implementation, physical, deployment, process) as SVG in the standard graphical notation, and warns where the views disagree. A single Rust binary for CI (`cargo install ortho`), with a language server and a VS Code extension ([Marketplace](https://marketplace.visualstudio.com/items?itemName=ola-coding.ortho)). MIT.
 
 ## SysML v1 to v2 Migration
 
